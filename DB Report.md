@@ -544,3 +544,73 @@ Schema rigidity: Changing table structures requires careful planning and may aff
 
 **-------------------------------------------------------------------------------------------------------------------------------------------------------------**
 
+**5-Cloud Storage and Databases**
+
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+
+
+**1. What is Cloud Storage and its relation to databases?**
+
+
+
+**Cloud Storage: A service that allows you to store data on remote servers hosted on the internet, instead of local computers or on-premise servers.**
+
+
+
+**Relation to Databases: Cloud databases store and manage structured or unstructured data on cloud infrastructure. They provide the same functionalities as traditional databases (querying, transactions, backups) but are accessible via the internet and managed by cloud providers.**
+
+
+
+**Examples of cloud databases: Azure SQL, Amazon RDS, Google Cloud Spanner.**
+
+
+
+**2. Advantages of Cloud-Based Databases**
+
+
+
+**Scalability 📈 – Easily increase storage or computing power as your needs grow.**
+
+
+
+**Cost-Effective 💰 – Pay-as-you-go pricing avoids large upfront hardware costs.**
+
+
+
+**Accessibility 🌐 – Access data from anywhere with an internet connection.**
+
+
+
+**Automatic Maintenance ⚙️ – Backups, updates, and security patches handled by provider.**
+
+
+
+**High Availability ☁️ – Redundancy across multiple data centers reduces downtime.**
+
+
+
+**3. Disadvantages of Cloud-Based Databases**
+
+
+
+**Dependency on Internet 🌐 – Cannot access database offline.**
+
+
+
+**Ongoing Costs 💵 – Long-term subscription fees may add up.**
+
+
+
+**Data Security \& Privacy Risks 🔒 – Sensitive data stored on third-party servers.**
+
+
+
+**Limited Control ⚠️ – Less control over infrastructure and configurations compared to on-premises setups.**
+
+
+
+**Latency Issues ⏱️ – Performance may be affected if servers are far from users.**
+
+
+
