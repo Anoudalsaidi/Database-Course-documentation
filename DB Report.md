@@ -612,5 +612,127 @@ Schema rigidity: Changing table structures requires careful planning and may aff
 
 **Latency Issues ⏱️ – Performance may be affected if servers are far from users.**
 
+**------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+**6-Database Engines and Languages**
+
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+**1. What is a Database Engine?**
+
+
+
+**A database engine (or DBMS engine) is the core software component of a Database Management System (DBMS) that stores, retrieves, and manages data in databases. It handles tasks like:**
+
+
+
+**Query processing**
+
+
+
+**Data storage and retrieval**
+
+
+
+**Transaction management (ACID properties: Atomicity, Consistency, Isolation, Durability)**
+
+
+
+**Security and access control**
+
+
+
+**In simple terms, the engine is the “brain” of the database that makes data operations work.**
+
+
+
+**2. Examples of Database Engines**
+
+**Database Engine	Type	Notes**
+
+**SQL Server	Relational	Developed by Microsoft, commonly uses T-SQL.**
+
+**MySQL	Relational	Open-source, widely used in web applications, uses ANSI SQL with some extensions.**
+
+**Oracle Database	Relational	Enterprise-grade, uses PL/SQL (Procedural Language for SQL).**
+
+**PostgreSQL	Relational	Open-source, supports ANSI SQL and PL/pgSQL for procedural tasks.**
+
+**3. Languages Used**
+
+
+
+**Databases are generally queried and managed using SQL (Structured Query Language), but each engine may have its own extensions or procedural languages:**
+
+
+
+**Engine	Language**
+
+**SQL Server	T-SQL (Transact-SQL)**
+
+**Oracle	PL/SQL (Procedural Language/SQL)**
+
+**MySQL	Standard SQL, with some MySQL-specific functions**
+
+**PostgreSQL	Standard SQL, PL/pgSQL for procedural programming**
+
+
+
+**Key point: The procedural extensions allow writing complex scripts, triggers, and stored procedures that standard SQL alone cannot handle.**
+
+
+
+**4. Relationship Between Engine and Language**
+
+
+
+**Each database engine supports specific dialects of SQL.**
+
+
+
+**Standard SQL is a common base, but engines add custom functions, commands, and procedural capabilities.**
+
+
+
+**This means a query written for one engine may need adjustment to run on another engine.**
+
+
+
+**For example:**
+
+
+
+**T-SQL is specific to SQL Server.**
+
+
+
+**PL/SQL is specific to Oracle.**
+
+
+
+**PostgreSQL and MySQL mostly follow ANSI SQL, but have engine-specific functions.**
+
+
+
+**5. Can One Language Work Across Different Engines?**
+
+
+
+**Standard SQL works across most engines for basic queries like SELECT, INSERT, UPDATE, DELETE.**
+
+
+
+**Advanced features (stored procedures, triggers, specific functions) are often engine-specific.**
+
+
+
+**There are database abstraction tools or ORMs (Object-Relational Mappers) that allow code to work with multiple engines by translating SQL differences behind the scenes.**
+
+
+
+**Summary: Standard SQL = portable; procedural extensions = mostly engine-specific.**
+
+**--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
 
 
