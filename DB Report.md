@@ -426,3 +426,121 @@ Schema rigidity: Changing table structures requires careful planning and may aff
 
 
 
+
+
+
+
+
+
+**----------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+**4-Types of Databases**
+
+
+
+**1. Relational vs Non-Relational Databases**
+
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+
+
+**Relational Database (RDBMS)**
+
+
+
+**Stores data in tables (rows and columns) with relationships between them.**
+
+
+
+**Uses SQL for queries.**
+
+
+
+**Ensures data integrity through constraints and ACID compliance.**
+
+
+
+**Examples: MySQL, PostgreSQL, Oracle.**
+
+
+
+**Use case: Banking systems, inventory management, ERP.**
+
+
+
+**Non-Relational Database (NoSQL)**
+
+
+
+**Stores data in flexible formats like document, key-value, column, or graph.**
+
+
+
+**Can scale easily for large amounts of unstructured or semi-structured data.**
+
+
+
+**Examples: MongoDB (document), Cassandra (column), Redis (key-value), Neo4j (graph).**
+
+
+
+**Use case: Social media feeds, real-time analytics, IoT data.**
+
+
+
+**2. Centralized vs Distributed vs Cloud Databases**
+
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+
+
+**Centralized Database**
+
+
+
+**Stored on a single server or location.**
+
+
+
+**Easy to manage but limited by server capacity.**
+
+
+
+**Use case: Small businesses or internal applications with limited users.**
+
+
+
+**Distributed Database**
+
+
+
+**Data is spread across multiple servers or locations, but appears as a single database.**
+
+
+
+**Improves reliability, availability, and performance.**
+
+
+
+**Use case: Global e-commerce platforms, banking systems with multiple branches.**
+
+
+
+**Cloud Database**
+
+
+
+**Hosted on cloud providers (AWS, Azure, Google Cloud).**
+
+
+
+**Scalable, flexible, and managed as a service.**
+
+
+
+**Use case: SaaS applications, mobile apps, big data platforms.**
+
+
+
+**-------------------------------------------------------------------------------------------------------------------------------------------------------------**
+
