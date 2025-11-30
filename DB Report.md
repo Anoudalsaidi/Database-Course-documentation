@@ -396,3 +396,33 @@ Schema rigidity: Changing table structures requires careful planning and may aff
 
 
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------...
+
+
+
+
+
+**3-Roles in a Database System**
+
+
+
+**Role                     | Responsibility**
+
+**-------------------------|-------------------------------------------**
+
+**System Analyst           | Understands business needs and defines database requirements.**
+
+**Database Designer        | Plans the database structure, tables, and relationships for efficiency and accuracy.**
+
+**Database Developer       | Builds and codes the database: queries, procedures, and triggers.**
+
+**Database Administrator   | Maintains, secures, and tunes the database; manages backups and access.**
+
+**Application Developer    | Creates applications that interact with the database to process and display data.**
+
+**BI Developer             | Develops reports, dashboards, and analytics for decision-making using database data.**
+
+
+
