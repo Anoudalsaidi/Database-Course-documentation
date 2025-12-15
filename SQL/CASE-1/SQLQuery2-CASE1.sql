@@ -10,11 +10,12 @@ create table employee(
  foreign key (SupervisorNumber) references employee(SSN)
 )
  create table Dependen(
- Name VARCHAR(50) primary key,
+ Name VARCHAR(50) not null,
  Gender VARCHAR(10),
  Barthdate date,
- SSN int,
+ SSN int not null,
  foreign key (SSN) references employee(SSN)
+ 
  )
  create table Dept(
  DNAME VARCHAR(50),
@@ -48,6 +49,28 @@ create table employee(
 alter table employee 
 add DNum int, 
 foreign key (DNum) references Dept(DNum)
+
+
+alter table Dependen
+drop CONSTRAINT PK__Dependen__737584F73973FE20
+
+SELECT name
+FROM sys.key_constraints
+WHERE type = 'PK'
+AND parent_object_id = OBJECT_ID('Dependen');
+
+ALTER TABLE Dependen
+ALTER COLUMN Name VARCHAR(50) NOT NULL;
+
+ALTER TABLE Dependen
+ALTER COLUMN SSN int NOT NULL;
+
+
+alter table Dependen
+add CONSTRAINT PK_depn
+PRIMARY KEY (SSN,Name)
+
+
 
 Insert into employee(FName,LName,Gender,Barthdate,SupervisorNumber)
 values('Anoud','Alsaidi',1,'2020-1-11',1),
